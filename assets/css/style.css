@@ -1,0 +1,128 @@
+html, body{
+    background-image: url("../../assets/images/wavy-dots.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.navbar{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    padding-top: 30px ; 
+    overflow: hidden ; 
+    background-color : #008080; 
+    opacity: 0.7 ; 
+}
+.navbar a{
+    float: right ; 
+    padding: 21px 25px ; 
+    text-align: center ; 
+    font-size: 18px ; 
+    text-decoration: none ; 
+    color: white ; 
+    text-transform: capitalize ; 
+    font-weight: 500% ; 
+    line-height: 1.9 ; 
+    
+
+}
+.navbar a:hover{
+    
+    background-color: rgba(255, 255, 255, 0.7) ; 
+    color: black ; 
+}
+.navbar h1{
+    
+    float: left ; 
+    padding: 21px 25px 0px 140px ;  
+    text-align: center ; 
+    font-size: 25px ; 
+    text-decoration: none ; 
+    color: white ; 
+    text-transform: none ; 
+    font-weight: 700% ; 
+    line-height: 2.2 ;
+}
+.navbar h1:hover{
+
+    background-color: rgba(178, 66, 0, 0.7) ; 
+}
+.wrapper{
+    background-color: #ffffff ; 
+    opacity: 0.9 ; 
+    overflow: hidden ; 
+    width: 70% ;
+    margin: 10px 200px 0px 200px ; 
+    border-top: 3px solid #008080 ; 
+    border-bottom: 3px solid #008080 ;
+    border-right:#dddddd ; 
+}
+
+.wrapper h3{
+    display: inline-flex ; 
+    align-items: center ;
+    justify-content: center ;
+    clear: left ;
+    float: left ; 
+    padding: 21px 25px ; 
+    border-bottom: 3px solid #c2c2c2 ; 
+    width: 100% ; 
+    overflow-x: none ; 
+}
+h3.about a{
+    display: inline-flex ; 
+    line-height: 1.9 ; 
+    color: #008080 ; 
+    font-weight: 550% ; 
+    font-size: 24px ; 
+    text-decoration: none ; 
+    text-transform: capitalize ; 
+
+}
+
+section.section-a img{
+    border: 1px solid black ; 
+}
+section{
+
+    line-height: 1.7 ; 
+    font-size: 20px ; 
+    text-align: left ;
+    
+    max-width: 980px ;
+    max-height: 1080px ; 
+    margin: 0px 100px 0px 100px ; 
+}
+
+
+#sticky-footer{
+    box-sizing: border-box ;
+    display: flex ; 
+    align-items: center ; 
+    justify-content: center ; 
+    position: sticky ; 
+    text-align: center ; 
+    background-color:grey  ; 
+    opacity: 1.0 ;  
+    width: 100%; 
+    height: 120px ; 
+    border-top: 2px solid #dddddd ; 
+    overflow: hidden ;
+    line-height: 1.6 ; 
+    font-size: 19px ; 
+    padding-left: 10px ;
+}
+.bottom-contact a{
+    border: 2px dashed rgba(255, 66, 0, 0.6) ;
+    display: flex ; 
+    align-items: center ;
+    justify-content: center ; 
+    text-decoration: none ; 
+    padding: 10px 14px ; 
+    background-color: #008080 ; 
+    color: white ; 
+    text-transform: capitalize ;
+    line-height: 1.6 ; 
+    opacity: 0.9 ; 
+    
+}
+.bottom-contact:hover{
+    background-color: white ; 
+    color: black ; 
+}
