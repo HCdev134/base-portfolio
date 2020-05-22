@@ -1,0 +1,18 @@
+:root{
+    --green-one: #4aaaa5; 
+
+    --blk-0: #000000; 
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+*{
+    margin:0;
+    padding:0;
+}
+*::selection{
+    color: var(--green-one); 
+}
+.logo-animated{
+    color: #2bc72b;
+}

@@ -1,0 +1,7 @@
+refactor work in progress 
+
+delete bad looking htmls 
+
+create 3 decent looking htmls 
+
+manage links 
