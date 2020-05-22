@@ -16,3 +16,18 @@
 .logo-animated{
     color: #2bc72b;
 }
+.center-image{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%; 
+}
+@media(max-width:792px){
+    body{
+        background:#ccc; 
+    }
+    .center-image{
+        width:400px; 
+        max-width:100%; 
+    }
+}
